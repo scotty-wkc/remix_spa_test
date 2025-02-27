@@ -13,7 +13,7 @@ export default function handleRequest(
 ) {
   const shellHtml = fs
     .readFileSync(
-      path.join(process.cwd(), "app/index.html")
+      path.join(process.cwd(), "index.html")
     )
     .toString();
 
