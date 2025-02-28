@@ -22,4 +22,7 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  build: {
+    outDir: './docs'
+  }
 });
